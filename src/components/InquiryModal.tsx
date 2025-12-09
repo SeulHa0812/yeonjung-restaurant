@@ -55,7 +55,7 @@ const InquiryModal: React.FC<Props> = ({ isOpen, onClose }) => {
   return (
     <Overlay>
       <ModalBox>
-        <CallButton href="tel:01077405821">Call 010-7740-5821</CallButton>
+        <CallButton href="tel:01077405821">Call 010-7252-5821</CallButton>
         <CancelButton onClick={onClose}>Cancel</CancelButton>
       </ModalBox>
     </Overlay>

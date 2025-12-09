@@ -22,7 +22,18 @@ const Navbar: React.FC = () => {
       >
         {/* 왼쪽 로고 */}
         <div style={{ fontWeight: "bold", fontSize: "18px", marginLeft: "20px" }}>
-          연정 한식뷔페
+          <a
+            href="#home"
+            style={{
+              fontSize: "18px",
+              marginLeft: "20px",
+              textDecoration: "none",
+              color: "#000",
+              cursor: "pointer"
+            }}
+          >
+            연정 한식뷔페
+          </a>
         </div>
 
         {/* 가운데 메뉴 */}
